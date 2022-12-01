@@ -1,0 +1,15 @@
+if (material.texture != NULL)
+		{
+			color += material.texture(uv) * lights[light_num]->color * NdotL;
+		}
+		else
+		{
+			color += material.diffuse * 
+		}
+		//implement distance attenuation 
+
+		float distance = glm::length(lights[light_num]->position - point);
+		float attenuation = 1.0 / (distance * distance);
+		color *= attenuation;
+
+			//color += lights[light_num]->color * (diffuse + specular);

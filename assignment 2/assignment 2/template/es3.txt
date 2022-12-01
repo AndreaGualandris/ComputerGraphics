@@ -1,0 +1,7 @@
+The reason why the moon appears as a white disk with constant brightness 
+is because, there is a considerable distance between the sun and the moon.
+
+the light direction is orthogonal to the moon 
+
+il sole e' talmente lontano che i raggi gli arrivano come se fossero dritti
+quindi ortogonali all luna 
